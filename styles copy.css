@@ -1,8 +1,9 @@
+
 /* Global Styles */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', sans-serif;
   color: #333;
-  background-color: #f4f4f4;
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -25,19 +26,9 @@ header {
   margin-top: 10px;
 }
 
-/* Navigation Menu */
-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #222;
-  padding: 10px 0;
-}
-
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -53,17 +44,11 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a:hover {
-  color: #007bff;
-}
-
-/* Hero Section */
 #hero {
   background-color: #ff3333;
   color: #fff;
   text-align: center;
   padding: 50px 20px;
-  background: url('../images/hero-bg.jpg') no-repeat center center/cover;
 }
 
 #hero h2 {
@@ -144,23 +129,6 @@ button:hover {
   color: #fff;
 }
 
-#about {
-  text-align: center; /* Centers the text */
-  max-width: 800px;   /* Limits the width for better readability */
-  margin: 0 auto;     /* Centers the section horizontally */
-  padding: 20px;      /* Adds padding around the text */
-}
-
-#about h2 {
-  font-size: 2em;     /* Increases the size of the heading */
-  margin-bottom: 20px;
-}
-
-#about p {
-  font-size: 1.2em;   /* Increases the size of the paragraph text */
-  line-height: 1.6;   /* Adds space between lines */
-}
-
 /* Footer */
 footer {
   background-color: #000;
@@ -169,23 +137,21 @@ footer {
   padding: 20px;
 }
 
-/* Model Login Button */
 .model-login-btn {
-  float: right;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  float: right;               /* Aligns the button to the right */
+  padding: 10px 20px;         /* Increases the size of the button */
+  font-size: 16px;            /* Makes the text larger */
+  background-color: #007bff;  /* Sets a blue background */
+  color: white;               /* Sets the text color to white */
+  border: none;               /* Removes the border */
+  border-radius: 5px;         /* Rounds the corners */
+  cursor: pointer;            /* Changes the cursor to a pointer on hover */
 }
 
 .model-login-btn:hover {
-  background-color: #0056b3;
+  background-color: #0056b3;  /* Darker blue on hover */
 }
 
-/* Model Table */
 .model-table {
   width: 100%;
   border-spacing: 10px;
@@ -211,23 +177,3 @@ footer {
   background-color: #0056b3;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  nav ul {
-    display: block;
-    text-align: left;
-  }
-
-  .model-btn {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .hero h1 {
-    font-size: 36px;
-  }
-
-  .hero p {
-    font-size: 18px;
-  }
-}
