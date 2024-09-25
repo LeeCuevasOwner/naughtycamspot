@@ -22,6 +22,7 @@
       </ul>
     </nav>
   </header>
+  <button class="model-login-btn" onclick="modelLogin()">Model Login</button>
 
   <!-- For Models Section -->
   <section id="models">
@@ -82,5 +83,24 @@
   <footer>
     <p>&copy; 2024 NaughtyCamSpot. All rights reserved.</p>
   </footer>
+  <script>
+    function modelLogin() {
+        const password = prompt("Please enter your model password:");
+        const modelPage = getModelPage(password);
+        if (modelPage) {
+            window.location.href = modelPage;
+        } else {
+            alert("Incorrect password!");
+        }
+    }
+
+    function getModelPage(password) {
+        const modelPages = {
+            "password1": "models/model1.html",
+            "password2": "models/model2.html",
+        };
+        return modelPages[password];
+    }
+</script>
 </body>
 </html>

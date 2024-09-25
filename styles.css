@@ -136,3 +136,44 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.model-login-btn {
+  float: right;               /* Aligns the button to the right */
+  padding: 10px 20px;         /* Increases the size of the button */
+  font-size: 16px;            /* Makes the text larger */
+  background-color: #007bff;  /* Sets a blue background */
+  color: white;               /* Sets the text color to white */
+  border: none;               /* Removes the border */
+  border-radius: 5px;         /* Rounds the corners */
+  cursor: pointer;            /* Changes the cursor to a pointer on hover */
+}
+
+.model-login-btn:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+}
+
+.model-table {
+  width: 100%;
+  border-spacing: 10px;
+  text-align: center;
+}
+
+.model-table td {
+  padding: 10px;
+}
+
+.model-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.model-btn:hover {
+  background-color: #0056b3;
+}
+
