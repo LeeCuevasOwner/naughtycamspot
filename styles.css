@@ -63,7 +63,7 @@ nav ul li a:hover {
   color: #fff;
   text-align: center;
   padding: 50px 20px;
-  background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+  background: url('./images/hero-bg.jpg') no-repeat center center/cover;
 }
 
 #hero h2 {
@@ -226,6 +226,11 @@ footer {
   .hero h1 {
     font-size: 36px;
   }
+
+  /* Global Text Alignment */
+body, p, ul, li, h2, h3 {
+  text-align: left; /* Ensures left alignment for all text */
+}
 
   .hero p {
     font-size: 18px;
